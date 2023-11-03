@@ -10,7 +10,7 @@ public class Main {
       Page page = browser.newPage();
       page.navigate("https://www.noon.com/");
       System.out.println(page.title());
-      browser.close();
+      //browser.close();
     }
     }
 }
