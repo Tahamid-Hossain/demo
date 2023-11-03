@@ -8,7 +8,7 @@ public class Main {
       BrowserType browserType = playwright.chromium();
       Browser browser = browserType.launch(new BrowserType.LaunchOptions().setHeadless(false));
       Page page = browser.newPage();
-      page.navigate("https://www.amazon.ae/");
+      page.navigate("https://www.noon.com/");
       System.out.println(page.title());
       browser.close();
     }
